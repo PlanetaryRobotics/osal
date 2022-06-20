@@ -34,6 +34,7 @@
 #include "utassert.h"
 #include "uttest.h"
 #include "utbsp.h"
+#pragma GCC diagnostic ignored "-Wtype-limits"
 
 static uint32 UT_TimerSync(uint32 timer_id)
 {

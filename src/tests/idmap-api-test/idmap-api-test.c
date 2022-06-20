@@ -34,6 +34,7 @@
 #include "utassert.h"
 #include "uttest.h"
 #include "utbsp.h"
+#pragma GCC diagnostic ignored "-Wtype-limits"
 
 
 uint32 task_id;

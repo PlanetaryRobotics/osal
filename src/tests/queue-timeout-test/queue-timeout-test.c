@@ -27,6 +27,7 @@
 #include "utassert.h"
 #include "uttest.h"
 #include "utbsp.h"
+#pragma GCC diagnostic ignored "-Wshadow"
 
 /* Define setup and check functions for UT assert */
 void QueueTimeoutSetup(void);

@@ -31,6 +31,7 @@
 
 #include "osapi.h"
 #include "bsp-impl.h"
+#pragma GCC diagnostic ignored "-Wmissing-field-initializers"
 
 
 OS_static_symbol_record_t OS_STATIC_SYMBOL_TABLE[] =
